@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import spacy
 nlp= spacy.load("en_core_web_lg")
-svm_model_load= pickle.load(open("C:/Users/Premier UK/spam-svm-model.sav","rb"))
+svm_model_load= pickle.load(open("spam-svm-model.sav","rb"))
 def clean_text(x):
      
      x=x.lower()
